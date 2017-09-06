@@ -1,0 +1,44 @@
+body {
+    background-color:#413C58;
+    font-size: 16px;
+    font-family: Helvetica, sans-serif;
+    font-weight:100;
+    letter-spacing: 3.5px;
+}
+
+
+h1 {
+    background-color: #A3C4BC; 
+    font-size: 35px;
+}
+
+h2 {
+    background-color: #BFD7B5;
+    font-size:35px;
+}
+
+h3 {
+    background-color: #E7EFC5; 
+    font-size: 35px;
+}
+
+h4 {
+    background-color: #F2DDA4; 
+    font-size: 35px;
+}
+
+h5 {
+    background-color: white; 
+    font-size: 35px;
+}
+
+
+li {
+    color:#8ad1f0;
+    outline: none; 
+}
+
+
+a {
+  color:#5195c7;
+}
