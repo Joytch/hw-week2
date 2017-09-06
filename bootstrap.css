@@ -1,0 +1,150 @@
+body {
+    background-color: #F3A712;
+}
+
+.container-fluid {
+    background-color: #29335C;
+}
+
+.person {
+    border: 10px solid transparent;
+    width: 80%;
+    margin-bottom: 100px;
+}
+
+.person:hover {
+    border-color: #E4572E;
+}
+
+.carousel-inner img {
+    height: auto !important;
+    /*最重要的用!標示*/
+    width: 100%;
+}
+
+.bg-1 {
+    background-color: #29335C;
+}
+
+.bg-1 h3 {
+    color: #badb95 !important;
+}
+
+.bg-1 p {
+    color: #F3A712;
+}
+
+.bg-1 h3 {
+    padding-top: 3px;
+}
+
+.bg-1 p {
+    padding: 40px 0px;
+}
+
+.thumbnail p {
+    line-height: 30px;
+}
+
+.thumbnail button {
+    background-color: #669BBC;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.thumbnail button:hover {
+    background-color: rgba(70, 166, 166, 1);
+    color: #000;
+}
+
+.footer {
+    background-color: rgba(70, 166, 166, 1);
+    height: 150px;
+    color: rgba(70, 166, 166, 1);
+    line-height: 150px;
+}
+
+body {
+    font-family: arial;
+    font-weight: lighter;
+}
+
+title {
+    font-family: arial;
+    font-weight: 900;
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    background: #29335C;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    /* 一開始先定位 */
+    animation: 6s running-box infinite;
+}
+
+@keyframes running-box {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+    25% {
+        top: 0px;
+        left: 100px;
+        background: #F3A712;
+    }
+    50% {
+        top: 100px;
+        left: 100px;
+        background: #669BBC;
+        border-radius: 50%;
+    }
+    75% {
+        top: 100px;
+        left: 0px;
+        background: #E4572E;
+    }
+    100% {
+        top: 0px;
+        left: 0px;
+    }
+}
+
+.icon-bar {
+    width: 100%;
+    /* Full-width */
+    background-color: #555;
+    /* Dark-grey background */
+    overflow: auto;
+    /* Overflow due to float */
+}
+
+.icon-bar a {
+    float: left;
+    /* Float links side by side */
+    text-align: center;
+    /* Center-align text */
+    width: 20%;
+    /* Equal width (5 icons with 20% width each = 100%)
+    padding: 12px 0; /* Some top and bottom padding */
+    transition: all 0.3s ease;
+    /* Add transition for hover effects */
+    color: white;
+    /* White text color */
+    font-size: 36px;
+    /* Increased font size */
+}
+
+.icon-bar a:hover {
+    background-color: #000;
+    /* Add a hover color */
+}
+
+.active {
+    background-color: #4CAF50;
+    /* Add an active/current color */
+}
+
+<br></br>
