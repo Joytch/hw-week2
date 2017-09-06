@@ -1,0 +1,27 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>tooltip!</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0">
+        <link rel="stylesheet" href="tooltip.css">
+        <script src="https://code.jquery.com/jquery-1.6.4.js"></script>
+	</head>
+
+	<body>
+
+
+<div class="playground">
+  <input type="text">
+      
+  <div class="hint" style="display: none;">This is a tooltip!</div>
+  </div>
+
+<script>
+        $().ready(function(){ $("input").mouseover(function(){ $('.hint').css("display", 'block'); }); $("iutput").mouseout(function(){ $(".hint").css("display","none"); }); });</script>
+
+
+
+	</body>
+</html>
