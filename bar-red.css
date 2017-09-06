@@ -1,0 +1,42 @@
+.bar-group{
+  background: #eee;
+  height: 100px;
+  padding:10px;
+}
+div.bar {
+	width: 30px;
+	height: 30px;
+	background-color: gold;
+	margin-bottom: 5px;
+    transition: 0.5s;
+}
+
+
+div.bar:hover{
+  background-color: red;
+  margin-bottom: 12px;
+}
+
+.item1:hover{
+  width:100px;
+  transition: 0.4s;
+}
+
+.item2:hover{
+  width:200px;
+  transition: 0.4s;
+}
+
+.item3:hover{
+  width:300px;
+  transition: 0.4s;
+}
+
+/*作業練習:
+
+三條變長後:
+長度不一
+顏色變成 red
+能平滑地復原
+
+ */
